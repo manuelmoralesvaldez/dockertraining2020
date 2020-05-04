@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yv2luuDMhHYOUk7t6Vgj1zhzBkrxnQHpSknR3lbYEcv2w5Y5UqAXMgaxRM1JsAm3+8q5UlNtJH32Lox4N91+/g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ManuelMorales\\source\\repos\\dockertraining_manuel_morales\\dockertraining_manuel_morales\\dockertraining_manuel_morales.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ManuelMorales\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.8\\microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512"
+  ],
+  "logs": []
+}
