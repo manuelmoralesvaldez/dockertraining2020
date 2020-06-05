@@ -1,0 +1,29 @@
+services:
+  db:
+    container_name: database_container
+    environment:
+      MYSQL_DATABASE: personsdb
+      MYSQL_PASSWORD: 123456
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_USER: test
+    image: mysql
+    ports:
+    - published: 3018
+      target: 3306
+    volumes:
+    - db_data:/var/lib/mysql:rw
+  web:
+    build:
+      context: D:\Docker6\dockertraining2020\docker_training_compose\dockertraining_compose_Manuel_Morales
+    container_name: api_container
+    depends_on:
+    - db
+    environment:
+      ConnectionStrings:PersonsDB: Server=database_container;Port=3306;Database=personsdb;
+        Uid=test; Pwd=123456
+    ports:
+    - published: 8091
+      target: 80
+version: '3.4'
+volumes:
+  db_data: {}

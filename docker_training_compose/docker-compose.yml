@@ -1,0 +1,26 @@
+version: '3.4'
+
+services:
+  db:
+     image: mysql
+     container_name: database_container
+     environment:
+        MYSQL_ROOT_PASSWORD: secret
+        MYSQL_DATABASE: personsdb
+        MYSQL_USER: test
+        MYSQL_PASSWORD: 123456
+     volumes:
+        - db_data:/var/lib/mysql
+     ports:
+        - 3018:3306
+  web:
+    build: ./dockertraining_compose_Manuel_Morales/.
+    depends_on:
+       - db
+    container_name: api_container
+    environment:
+       "ConnectionStrings:PersonsDB": "Server=database_container;Port=3306;Database=personsdb; Uid=test; Pwd=123456"
+    ports:
+      - "8091:80"
+volumes:
+    db_data:

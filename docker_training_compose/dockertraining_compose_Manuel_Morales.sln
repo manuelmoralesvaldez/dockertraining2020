@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FDE195B2-7D99-4230-BCCE-57714241EBD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A9BC62F1-8CA6-4D03-973A-0C4C9108DC79}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dockertraining_compose_Manuel_Morales", "dockertraining_compose_Manuel_Morales\dockertraining_compose_Manuel_Morales.csproj", "{F5B67933-6236-472D-A269-077C2643842A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDE195B2-7D99-4230-BCCE-57714241EBD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE195B2-7D99-4230-BCCE-57714241EBD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE195B2-7D99-4230-BCCE-57714241EBD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE195B2-7D99-4230-BCCE-57714241EBD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B67933-6236-472D-A269-077C2643842A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B67933-6236-472D-A269-077C2643842A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B67933-6236-472D-A269-077C2643842A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B67933-6236-472D-A269-077C2643842A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B278311-C3CC-4A9A-8ACA-150EF8AB3A86}
+	EndGlobalSection
+EndGlobal
